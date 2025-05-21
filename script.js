@@ -21,7 +21,7 @@
 
 // showNameId(); 
 
-// console.log(nameId); // ❌ This would throw an error because nameId is not defined outside the function
+// console.log(nameId); 
 
 
 // if (true) {
@@ -30,7 +30,7 @@
 // console.log(test);
 
 
-// console.log(x); // ❓ Output: undefined
+// console.log(x); // 
 // var x = 5;
 
 //block-scope relible and save
@@ -48,20 +48,80 @@
 //function scope risky and not save 
 
 
-if (true) {
-  var name = "Abdul";
-  var age = 25;
-}
+// if (true) {
+//   var name = "Abdul";
+//   var age = 25;
+// }
 
-console.log(name); 
-console.log(age); 
+// console.log(name); 
+// console.log(age); 
 
 
 
-if (true) {
-  var name = "Abdul";
-  var age = 25;
-}
-name = "ali";
-console.log(name); 
-console.log(age); 
+// if (true) {
+//   var name = "Abdul";
+//   var age = 25;
+// }
+// name = "ali";
+// console.log(name); 
+// console.log(age); 
+
+
+
+// converting 
+
+// let user = "hello" ;
+
+// console.log(typeof user);
+//  let changeUser = Number(user)
+//  console.log(changeUser);
+
+
+
+//  let user = 8888 ;
+
+//   let changeUser = String(user)
+//  console.log(changeUser);
+// console.log(typeof changeUser);
+
+
+//  let user = 0 ;
+
+//   let changeUser = Boolean(user)
+//  console.log(changeUser);
+// console.log(typeof changeUser);
+// false
+
+//  let user = 1 ;
+
+//   let changeUser = Boolean(user)
+//  console.log(changeUser);
+// console.log(typeof changeUser);
+//true
+
+
+//  let user = "" ;
+
+//   let changeUser = Boolean(user)
+//  console.log(changeUser);
+// console.log(typeof changeUser);
+
+// false
+
+
+
+
+//  let user = "jhgfds" ;
+
+//   let changeUser = Boolean(user)
+//  console.log(changeUser);
+// console.log(typeof changeUser);
+//true
+
+
+
+console.log(null > 0);
+
+console.log(null === 0);
+console.log(null < 0);
+console.log(null >= 0);
