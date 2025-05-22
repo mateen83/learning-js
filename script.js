@@ -148,17 +148,20 @@
 
 
 
-let user1 = {
-    email: "1@gamil.com",
-    name: "abc"
-}
-let user2 = user1 
- user2.email = "3@gmail.com"
+// let user1 = {
+//     email: "1@gamil.com",
+//     name: "abc"
+// }
+// let user2 = user1 
+//  user2.email = "3@gmail.com"
 
 
-console.log(user1.email);
-console.log(user2.email);
+// console.log(user1.email);
+// console.log(user2.email);
 
 
 
+// strings methods in javascript
 
+
+// 1 
