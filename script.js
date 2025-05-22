@@ -133,3 +133,32 @@
 // console.log(undefined >= 0);   // false
 
 
+/// stack is a premitive data type they give the copy value to the user not change in oriuginal value
+
+
+// let oneUser = "user@gmail.com"
+// let userTwo = oneUser
+// userTwo = "one@gmail.com"
+// console.log(oneUser);
+// console.log(userTwo);
+
+
+
+//heap is a non premitive data type they give reference to the user also they chnage in original value .
+
+
+
+let user1 = {
+    email: "1@gamil.com",
+    name: "abc"
+}
+let user2 = user1 
+ user2.email = "3@gmail.com"
+
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+
+
