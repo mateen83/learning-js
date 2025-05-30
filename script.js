@@ -350,3 +350,18 @@
 // console.log(score3.toLocaleString("en-US"));
 
 
+//Math methods in javascript
+
+
+// console.log(Math.random()*10); // 0.123456789
+// console.log(Math.floor(Math.random()*10)+ 1); // 0
+// console.log(Math.ceil(Math.random()*10)); // 0
+
+
+const min = 10;
+const max = 20;
+const randomNumber = Math.floor(Math.random() * (max - min + 1));
+// const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(randomNumber); // Random number between 1 and 100
+
+
