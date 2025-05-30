@@ -322,7 +322,31 @@
 
 // // 15 repeat
 // let user33 = "hello world";  
-// let user34 = user33.repeat(5);
+// let user34 = user33.repeat(5;);
 // console.log(user34);
+
+
+// Number methods in javascript
+
+// console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
+// console.log(Number.MIN_VALUE); // 5e-324
+// console.log(Number.POSITIVE_INFINITY); // Infinity
+// console.log(Number.NEGATIVE_INFINITY); // -Infinity
+// console.log(Number.NaN); // NaN 
+
+
+// const score = 100;
+// console.log(score.toString()); // "100"
+// console.log(score.toFixed(2)); // "100.00"
+// console.log(typeof score); // "number"
+
+
+// const score2 = 100.97564;
+// console.log(score2.toPrecision(1)); 
+// console.log(score2.toPrecision(3)); 
+
+
+// const score3 = 10097564000;
+// console.log(score3.toLocaleString("en-US"));
 
 
