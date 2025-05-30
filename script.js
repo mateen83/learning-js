@@ -358,10 +358,31 @@
 // console.log(Math.ceil(Math.random()*10)); // 0
 
 
-const min = 10;
-const max = 20;
-const randomNumber = Math.floor(Math.random() * (max - min + 1));
-// const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-console.log(randomNumber); // Random number between 1 and 100
+// const min = 10;
+// const max = 20;
+// const randomNumber = Math.floor(Math.random() * (max - min + 1));
+// // const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+// console.log(randomNumber); // Random number between 1 and 100
 
+
+
+
+//date methods in javascript
+
+// const date = new Date();
+// console.log(date); // Current date and time  
+
+
+// const date2 = new Date ();
+// console.log(date2.toLocaleDateString()); // Current date and time  
+
+// const date3 = new Date ();
+// console.log(date3.toLocaleDateString()); 
+
+
+// const date4 = new Date (2023, 10, 5, 12, 30, 0); // Year, Month (0-11), Day, Hours, Minutes, Seconds
+// // console.log(date4.toLocaleDateString()); 
+// // console.log(date4);
+// console.log(date4.toLocaleString()); 
+// // console.log(date4.toLocaleDateString()); 
 
