@@ -386,3 +386,40 @@
 // console.log(date4.toLocaleString()); 
 // // console.log(date4.toLocaleDateString()); 
 
+//array in javascript
+
+
+// const arr1 = [1, 2, 3, 4, 5];
+// const arr2 = arr1.shift(); // removes the first element from arr1 and returns it
+// console.log(arr2); 
+// console.log(arr1); // arr1 is now [2, 3, 4, 5]
+
+
+// const arr3 = [1, 2, 3, 4, 5, 23, 45, 67, 89];
+// const arr4 = arr3.unshift(44); // adds elements to the beginning of arr3
+// console.log(arr3); // arr3 is now [1, 2, 3, 4, 5, 23, 45, 67, 89]
+
+
+// const arr5 = [1, 2, 3, 4, 5];
+// const arr6 = arr5.pop(34);
+// console.log(arr6); // removes the last element from arr5 and returns it
+// console.log(arr5); // arr5 is now [1, 2, 3, 4]
+
+// const arr7 = [1, 2, 3, 4, 5];
+// const arr8 = arr7.push(6); // adds elements to the end of arr7
+// console.log(arr8); // arr7 is now [1, 2, 3, 4, 5, 6]
+// console.log(arr7); // arr7 is now [1, 2, 3, 4, 5, 6]
+
+// const arr11 = [1, 2, 3, 4, 5];
+// const arr12 = arr11.slice(1, 3); // returns a shallow copy of a portion of arr11 from index 1 to index 3 (not inclusive)
+// console.log(arr12); // returns [2, 3]
+// console.log(arr11); // returns [1, 2, 3, 4, 5]
+
+// const arr9 = [1, 2, 3, 4, 5];
+// // const arr10 = arr9.splice(1, 3); // removes 5 elements from index 1 of arr9
+// console.log(arr9.splice(1,4)); // returns the removed elements [2, 3, 4, 5]
+// // console.log(arr9); 
+
+// const arr13 = [1, 2, 3, 4, 5];
+// console.log(arr13.slice(1, 4)); //removes 3 elements from index 1 of arr13 and adds 6 and 7
+
