@@ -423,3 +423,53 @@
 // const arr13 = [1, 2, 3, 4, 5];
 // console.log(arr13.slice(1, 4)); //removes 3 elements from index 1 of arr13 and adds 6 and 7
 
+// flat method in javascript 
+
+// const arr14 = [1, 2, [3, 4, [5, 6]]];
+// const arr15 = arr14.flat(2); // flattens the array to a depth of 2
+// console.log(arr15); // returns [1, 2, 3, 4, 5, 6]
+
+// //concat method in javascript
+
+// const arr16 = [1, 2, 3];
+// const arr17 = [4, 5, 6];
+// const arr18 = arr16.concat(arr17); // concatenates arr16 and arr17
+// console.log(arr18); // returns [1, 2, 3, 4, 5, 6]
+
+// //spred operator in javascript
+
+// const arr19 = [1, 2, 3];
+// const arr20 = [4, 5, 6];
+// const arr21 = [...arr19, ...arr20]; // spreads the elements of arr19 and arr20 into a new array
+// console.log(arr21); // returns [1, 2, 3, 4, 5, 6]
+
+// //map method in javascript  
+// const arr22 = [1, 2, 3, 4, 5];
+// const arr23 = arr22.map((num) => num * 2); // creates a new array with each element multiplied by 2
+// console.log(arr23); // returns [2, 4, 6, 8, 10]
+
+// //filter method in javascript
+// const arr24 = [1, 2, 3, 4, 5];
+// const arr25 = arr24.filter((num) => num > 2); // creates a new array with elements greater than 2
+// console.log(arr25); // returns [3, 4, 5]
+
+// //reduce method in javascript
+// const arr26 = [1, 2, 3, 4, 5];
+// const sum = arr26.reduce((accumulator, currentValue) => accumulator + currentValue, 0); // sums all elements in arr26
+// console.log(sum); // returns 15
+
+// //find method in javascript
+// const arr27 = [1, 2, 3, 7, 5];      
+// const found = arr27.find((num) => num > 3); // finds the first element greater than 3
+// console.log(found); // returns 4
+
+// const arr28 = [kkhj, jdhs, sjhdh, jdhj, jdhj];
+// const found2 = arr28.find((num) => num === "jdhj"); // finds the first element that is equal to "jdhj"
+// console.log(found2); // returns "jdhj"
+
+
+console.log(Array.isArray("world")); // checks if arr28 is an array
+console.log(Array.of("hello")); // checks if "hello" is an array
+console.log(Array.from("hello")); // converts "hello" to an array of characters
+
+
