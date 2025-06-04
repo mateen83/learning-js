@@ -468,8 +468,19 @@
 // console.log(found2); // returns "jdhj"
 
 
-console.log(Array.isArray("world")); // checks if arr28 is an array
-console.log(Array.of("hello")); // checks if "hello" is an array
-console.log(Array.from("hello")); // converts "hello" to an array of characters
+// console.log(Array.isArray("world")); // checks if arr28 is an array
+// console.log(Array.of("hello")); // checks if "hello" is an array
+// console.log(Array.from("hello")); // converts "hello" to an array of characters
+
+// object in javascript
+
+
+const user = {
+name : "abdul",
+mail : "abdul@fb.com" , 
+}
+
+console.log(user.name);
+console.log(user["mail"]);
 
 
